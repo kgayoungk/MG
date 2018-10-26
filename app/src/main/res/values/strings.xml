@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">MyoGyeong</string>
     <string name="main">쓰다듬어 주세요</string>
+    <string name="intro1">묘종 10년, 신묘년</string>
+    <string name="intro2">경복궁에는 큰 소란이 인다</string>
     <string name="myojong1">
         어서 오게!\n과인의 집무실인 이곳 사정전까지 잘 와 주었네.\n
 
