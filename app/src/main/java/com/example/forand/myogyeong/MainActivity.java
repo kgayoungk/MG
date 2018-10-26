@@ -32,11 +32,19 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
 
+        // 배경음악
+        final SoundPool bgm1 = new SoundPool(2, AudioManager.STREAM_MUSIC, 0);
+        final int drum = bgm1.load(this, R.raw.drum, 1);
+        final int meow = bgm1.load(this, R.raw.meow, 1);
+
         // 고양이 쓰다듬기
         pat_cat = (ImageButton) findViewById(R.id.cat1_main);
         pat_cat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                // 고양이 울음소리
+                bgm1.play(meow, 1, 1, 1, 0, 1);
+                // 화면 전환
                 Intent i1 = new Intent(getApplicationContext(), Intro.class);
                 startActivity(i1);
             }
@@ -45,6 +53,21 @@ public class MainActivity extends AppCompatActivity {
         // 타이틀 애니메이션
         ImageView title = (ImageView) findViewById(R.id.title);
         Animation title_anim = AnimationUtils.loadAnimation(this, R.anim.main_title_anim);
+        title_anim.setAnimationListener(new Animation.AnimationListener() {
+            @Override
+            public void onAnimationStart(Animation animation) {
+                // 북소리
+                bgm1.play(drum, 1, 1, 0, 0, 1);
+            }
+
+            @Override
+            public void onAnimationEnd(Animation animation) {
+            }
+
+            @Override
+            public void onAnimationRepeat(Animation animation) {
+            }
+        });
         title.startAnimation(title_anim);
 
         // 쓰다듬어 주세요 애니메이션
@@ -70,9 +93,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         pat_cat.startAnimation(cat_anim);
-
-        // 배경음악
-
     }
 
 }

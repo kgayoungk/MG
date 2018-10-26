@@ -2,6 +2,8 @@ package com.example.forand.myogyeong;
 
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.media.AudioManager;
+import android.media.SoundPool;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.WindowManager;
@@ -45,8 +47,6 @@ public class Intro extends AppCompatActivity {
                 finish();
             }
         }, 13500);
-
-        // 배경음악
     }
 
 }
