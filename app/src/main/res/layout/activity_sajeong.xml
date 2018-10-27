@@ -16,73 +16,101 @@
     <!-- 내시 -->
     <ImageView
         android:id="@+id/naesi1"
-        android:layout_width="40dp"
-        android:layout_height="200dp"
-        android:src="@drawable/naesi"/>
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:src="@drawable/naesi"
+        android:background="#00ff0000"
+        android:layout_gravity="bottom|center_horizontal" />
 
     <!-- 대화창 -->
-    <TextView
+    <ImageView
         android:id="@+id/dialog2"
-        android:layout_width="800dp"
+        android:layout_width="match_parent"
         android:layout_height="120dp"
         android:background="@drawable/dialog_bg"
         android:gravity="top"
         android:layout_gravity="bottom|center_horizontal"
-        android:layout_margin="20dp"
-        android:paddingTop="30dp"
-        android:paddingLeft="40dp"
-        android:text="@string/naesi1"
+        android:layout_margin="20dp" />
+
+    <!-- 이름표 -->
+    <TextView
+        android:id="@+id/nametag2"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:background="@drawable/nametag"
+        android:gravity="center"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="70dp"
+        android:paddingBottom="20dp"
+        android:text="@string/naesi_name"
         android:textSize="20sp"
-        android:textColor="#000000"
-        android:maxLines="2" />
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
 
     <!-- 대화창 다음 버튼 -->
-    <!-- 버튼 터치시 대화 내용 넘기는 기능 추가 요망 -->
     <ImageButton
         android:id="@+id/dialog_next2"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
         android:src="@drawable/dialog_next"
         android:background="#00ff0000"
-        android:layout_gravity="bottom|end"
-        android:layout_marginBottom="50dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="55dp"
         android:layout_marginRight="60dp" />
 
-    <!-- 보따리 -->
-    <ImageButton
-        android:id="@+id/pack1"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:src="@drawable/pack"
-        android:background="#00ff0000"
-        android:layout_margin="10dp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
 
-    <!-- 고양이 획득 여부 -->
-    <!-- 고양이1 -->
-    <ImageView
-        android:id="@+id/cat1_black1"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:src="@drawable/cat1_black"
-        android:layout_gravity="end"
-        android:layout_margin="10dp" />
+        <!-- 보따리 -->
+        <ImageButton
+            android:id="@+id/pack1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:src="@drawable/pack"
+            android:background="#00ff0000"
+            android:layout_alignParentLeft="true" />
 
-    <!-- 고양이2 -->
-    <ImageView
-        android:id="@+id/cat2_black1"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:src="@drawable/cat2_black"
-        android:layout_gravity="end"
-        android:layout_margin="10dp" />
+        <!-- 고양이 획득 여부 -->
+        <!-- 고양이1 -->
+        <ImageView
+            android:id="@+id/cat1_black1"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:src="@drawable/cat1"
+            android:layout_alignParentRight="true" />
 
-    <!-- 고양이3 -->
-    <ImageView
-        android:id="@+id/cat3_black1"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:src="@drawable/cat3_black"
-        android:layout_gravity="end"
-        android:layout_margin="10dp" />
+        <!-- 고양이2 -->
+        <ImageView
+            android:id="@+id/cat2_black1"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:src="@drawable/cat2"
+            android:layout_toLeftOf="@id/cat1_black1"
+            android:layout_alignBottom="@id/cat1_black1" />
+
+        <!-- 고양이3 -->
+        <ImageView
+            android:id="@+id/cat3_black1"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:src="@drawable/cat3"
+            android:layout_toLeftOf="@id/cat2_black1"
+            android:layout_alignBottom="@id/cat1_black1" />
+
+    </RelativeLayout>
 
 </FrameLayout>

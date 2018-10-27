@@ -18,8 +18,6 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    ImageButton pat_cat;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         final int meow = bgm1.load(this, R.raw.meow, 1);
 
         // 고양이 쓰다듬기
-        pat_cat = (ImageButton) findViewById(R.id.cat1_main);
+        final ImageButton pat_cat = (ImageButton) findViewById(R.id.cat1_main);
         pat_cat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -46,7 +46,7 @@ public class Intro extends AppCompatActivity {
                 startActivity(i2);
                 finish();
             }
-        }, 13500);
+        }, 14000);
     }
 
 }

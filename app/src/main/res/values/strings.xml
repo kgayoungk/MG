@@ -3,8 +3,17 @@
     <string name="main">쓰다듬어 주세요</string>
     <string name="intro1">묘종 10년, 신묘년</string>
     <string name="intro2">경복궁에는 큰 소란이 인다</string>
+    <string name="myojong_name">묘종</string>
+    <string name="naesi_name">김내관</string>
+    <string name="seja_name">진묘대군</string>
+    <string name="sangung_name">한상궁</string>
+    <string name="myohyeon_name">묘현왕후</string>
+    <string name="cat1_name">태평이</string>
+    <string name="cat2_name">태생이</string>
+    <string name="cat3_name">태양이</string>
     <string name="myojong1">
-        어서 오게!\n과인의 집무실인 이곳 사정전까지 잘 와 주었네.\n
+        어서 오게!\n
+        과인의 집무실인 이곳 사정전까지 잘 와 주었네.\n
 
         내 자네를 부른 까닭은 친히 부탁할 것이 있어서라네.\n\n
 
@@ -20,7 +29,7 @@
         곧 이곳 사정전에서 여러 대신들이 모여 학문을 토론하는\n
         경연이 열릴 예정이라 내 더 이상의 설명은 힘들 것 같네.\n
 
-        자세한 사정은 김내관에게 일러두었으니 따라가 보게.</string>
+        자세한 사정은 김내관에게 일러두었으니 따라가 보게.\n</string>
     <string name="naesi1">
         저는 주상전하를 곁에서 모시는 김내관이라 하옵니다.\n\n
 
