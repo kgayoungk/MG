@@ -63,6 +63,14 @@
 
     <string name="hyangwon_cat3_s1"></string>
 
-    <string name="sujeong_myojong_s1"></string>
+    <string name="sujeong_naesi_s1"></string>
+
+    <string name="geunjeong_cat1_s1"></string>
+
+    <string name="geunjeong_cat2_s1"></string>
+
+    <string name="geunjeong_cat3_s1"></string>
+
+    <string name="geunjeong_myojong_s1"></string>
 
 </resources>

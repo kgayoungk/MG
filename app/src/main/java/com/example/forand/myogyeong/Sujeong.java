@@ -28,10 +28,10 @@ public class Sujeong extends AppCompatActivity {
 
         setContentView(R.layout.activity_sajeong);
 
-        // 묘종 등장 애니메이션
-        ImageView sujeong_myojong = (ImageView) findViewById(R.id.sujeong_myojong);
-        Animation sujeong_myojong_anim = AnimationUtils.loadAnimation(this, R.anim.character_in_anim);
-        sujeong_myojong.startAnimation(sujeong_myojong_anim);
+        // 내시 등장 애니메이션
+        ImageView sujeong_naesi = (ImageView) findViewById(R.id.sujeong_naesi);
+        Animation sujeong_naesi_anim = AnimationUtils.loadAnimation(this, R.anim.character_in_anim);
+        sujeong_naesi.startAnimation(sujeong_naesi_anim);
 
         // 대화창 애니메이션
         ImageButton sujeong_dialog = (ImageButton) findViewById(R.id.sujeong_dialog);
@@ -60,7 +60,7 @@ public class Sujeong extends AppCompatActivity {
 
     // 텍스트 전환
     public void changeView(int index){
-        TextView tv1 = (TextView) findViewById(R.id.sujeong_myojong_s1);
+        TextView tv1 = (TextView) findViewById(R.id.sujeong_naesi_s1);
 
 
 
