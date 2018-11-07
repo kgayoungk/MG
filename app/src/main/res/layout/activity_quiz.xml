@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quiz">
+
+    <!--희빈-->
+
+    <!-- 화면 배경 -->
+    <ImageView
+        android:id="@+id/quiz_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+        <!--android:background="@drawable/quiz_bg" /> -->
+
+    <ImageButton
+        android:id="@+id/right_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="190dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+
+        android:background="#00ff0000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <!--android:src="@drawable/right"-->
+
+    <ImageButton
+        android:id="@+id/wrong_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="170dp"
+        android:layout_marginRight="170dp"
+        android:adjustViewBounds="true"
+        android:background="#00ff0000"
+        android:scaleType="fitCenter"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <!-- android:src="@drawable/wrong"-->
+
+</android.support.constraint.ConstraintLayout>

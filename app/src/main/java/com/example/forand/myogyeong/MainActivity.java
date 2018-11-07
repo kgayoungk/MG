@@ -31,9 +31,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // 배경음악
-        final SoundPool bgm1 = new SoundPool(2, AudioManager.STREAM_MUSIC, 0);
-        final int drum = bgm1.load(this, R.raw.drum, 1);
-        final int meow = bgm1.load(this, R.raw.meow, 1);
+        final SoundPool main_bgm = new SoundPool(2, AudioManager.STREAM_MUSIC, 0);
+        final int start = main_bgm.load(this, R.raw.start, 1);
+        final int meow = main_bgm.load(this, R.raw.meow, 1);
 
         // 고양이 쓰다듬기
         final ImageButton pat_cat = (ImageButton) findViewById(R.id.cat1_main);
@@ -41,10 +41,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // 고양이 울음소리
-                bgm1.play(meow, 1, 1, 1, 0, 1);
+                main_bgm.play(meow, 1, 1, 1, 0, 1);
+
                 // 화면 전환
-                Intent i1 = new Intent(getApplicationContext(), Intro.class);
-                startActivity(i1);
+                Intent main_i = new Intent(getApplicationContext(), Intro.class);
+                startActivity(main_i);
             }
         });
 
@@ -54,8 +55,8 @@ public class MainActivity extends AppCompatActivity {
         title_anim.setAnimationListener(new Animation.AnimationListener() {
             @Override
             public void onAnimationStart(Animation animation) {
-                // 북소리
-                bgm1.play(drum, 1, 1, 0, 0, 1);
+                // 앱 시작 시 띠롱 소리
+                main_bgm.play(start, 1, 1, 0, 0, 1);
             }
 
             @Override
@@ -67,11 +68,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         title.startAnimation(title_anim);
-
-        // 쓰다듬어 주세요 애니메이션
-        TextView pat = (TextView) findViewById(R.id.patme);
-        Animation pat_anim = AnimationUtils.loadAnimation(this, R.anim.main_pat_anim);
-        pat.startAnimation(pat_anim);
 
         // 고양이 애니메이션
         Animation cat_anim = AnimationUtils.loadAnimation(this, R.anim.main_cat_anim);
@@ -91,6 +87,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         pat_cat.startAnimation(cat_anim);
+
+        // 쓰다듬어 주세요 애니메이션
+        TextView pat = (TextView) findViewById(R.id.patme);
+        Animation pat_anim = AnimationUtils.loadAnimation(this, R.anim.main_pat_anim);
+        pat.startAnimation(pat_anim);
     }
 
 }

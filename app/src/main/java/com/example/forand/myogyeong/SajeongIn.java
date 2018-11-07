@@ -12,7 +12,11 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
 public class SajeongIn extends AppCompatActivity {
+
+    int i = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,31 +31,117 @@ public class SajeongIn extends AppCompatActivity {
         setContentView(R.layout.activity_sajeong_in);
 
         // 묘종 등장 애니메이션
-        ImageView myojong1 = (ImageView) findViewById(R.id.myojong1);
-        Animation myojong_anim1 = AnimationUtils.loadAnimation(this, R.anim.character_in_anim);
-        myojong1.startAnimation(myojong_anim1);
+        ImageView sajeong_in_myojong = (ImageView) findViewById(R.id.sajeong_in_myojong);
+        Animation sajeong_in_myojong_anim = AnimationUtils.loadAnimation(this, R.anim.character_in_anim);
+        sajeong_in_myojong.startAnimation(sajeong_in_myojong_anim);
 
-        // 대화창, 이름표, 다음 버튼 애니메이션
-        final ImageView dialog1 = (ImageView) findViewById(R.id.dialog1);
-        final Animation dialog_anim1 = AnimationUtils.loadAnimation(this, R.anim.dialog_in_anim);
-        dialog1.startAnimation(dialog_anim1);
+        // 대화창 애니메이션
+        ImageButton sajeong_in_dialog = (ImageButton) findViewById(R.id.sajeong_in_dialog);
+        Animation sajeong_in_dialog_anim = AnimationUtils.loadAnimation(this, R.anim.dialog_in_anim);
+        sajeong_in_dialog.startAnimation(sajeong_in_dialog_anim);
 
-        final TextView nametag1 = (TextView) findViewById(R.id.nametag1);
-        final Animation nametag_anim1 = AnimationUtils.loadAnimation(this, R.anim.dialog_in_anim);
-        nametag1.startAnimation(nametag_anim1);
+        // 이름표 애니메이션
+        ImageView sajeong_in_nametag = (ImageView) findViewById(R.id.sajeong_in_nametag);
+        Animation sajeong_in_nametag_anim = AnimationUtils.loadAnimation(this, R.anim.dialog_in_anim);
+        sajeong_in_nametag.startAnimation(sajeong_in_nametag_anim);
 
-        final ImageButton dialog_next1 = (ImageButton) findViewById(R.id.dialog_next1);
-        final Animation dialog_next_anim1 = AnimationUtils.loadAnimation(this, R.anim.dialog_in_anim);
-        dialog_next1.startAnimation(dialog_next_anim1);
+        // 이름 애니메이션
+        TextView sajeong_in_name = (TextView) findViewById(R.id.sajeong_in_name);
+        Animation sajeong_in_name_anim = AnimationUtils.loadAnimation(this, R.anim.dialog_in_anim);
+        sajeong_in_name.startAnimation(sajeong_in_name_anim);
 
-        dialog_next1.setOnClickListener(new View.OnClickListener() {
+        /// 텍스트 전환
+        changeView(i);
+        sajeong_in_dialog.setOnClickListener(new View.OnClickListener(){
             @Override
-            public void onClick(View view) {
-                // 화면 전환
-                Intent i3 = new Intent(getApplicationContext(), Sajeong.class);
-                startActivity(i3);
+            public void onClick(View view){
+                changeView(i);
             }
         });
+    }
+
+    // 텍스트 전환
+    public void changeView(int index){
+        TextView tv1 = (TextView) findViewById(R.id.sajeong_in_myojong_s1);
+        TextView tv2 = (TextView) findViewById(R.id.sajeong_in_myojong_s2);
+        TextView tv3 = (TextView) findViewById(R.id.sajeong_in_myojong_s3);
+        TextView tv4 = (TextView) findViewById(R.id.sajeong_in_myojong_s4);
+        TextView tv5 = (TextView) findViewById(R.id.sajeong_in_myojong_s5);
+        TextView tv6 = (TextView) findViewById(R.id.sajeong_in_myojong_s6);
+        TextView tv7 = (TextView) findViewById(R.id.sajeong_in_myojong_s7);
+
+        switch(index){
+            case 0:
+                tv1.setVisibility(View.VISIBLE);
+                tv2.setVisibility(View.INVISIBLE);
+                tv3.setVisibility(View.INVISIBLE);
+                tv4.setVisibility(View.INVISIBLE);
+                tv5.setVisibility(View.INVISIBLE);
+                tv6.setVisibility(View.INVISIBLE);
+                tv7.setVisibility(View.INVISIBLE);
+                i++;
+                break;
+            case 1:
+                tv1.setVisibility(View.INVISIBLE);
+                tv2.setVisibility(View.VISIBLE);
+                tv3.setVisibility(View.INVISIBLE);
+                tv4.setVisibility(View.INVISIBLE);
+                tv5.setVisibility(View.INVISIBLE);
+                tv6.setVisibility(View.INVISIBLE);
+                tv7.setVisibility(View.INVISIBLE);
+                i++;
+                break;
+            case 2:
+                tv1.setVisibility(View.INVISIBLE);
+                tv2.setVisibility(View.INVISIBLE);
+                tv3.setVisibility(View.VISIBLE);
+                tv4.setVisibility(View.INVISIBLE);
+                tv5.setVisibility(View.INVISIBLE);
+                tv6.setVisibility(View.INVISIBLE);
+                tv7.setVisibility(View.INVISIBLE);
+                i++;
+                break;
+            case 3:
+                tv1.setVisibility(View.INVISIBLE);
+                tv2.setVisibility(View.INVISIBLE);
+                tv3.setVisibility(View.INVISIBLE);
+                tv4.setVisibility(View.VISIBLE);
+                tv5.setVisibility(View.INVISIBLE);
+                tv6.setVisibility(View.INVISIBLE);
+                tv7.setVisibility(View.INVISIBLE);
+                i++;
+                break;
+            case 4:
+                tv1.setVisibility(View.INVISIBLE);
+                tv2.setVisibility(View.INVISIBLE);
+                tv3.setVisibility(View.INVISIBLE);
+                tv4.setVisibility(View.INVISIBLE);
+                tv5.setVisibility(View.VISIBLE);
+                tv6.setVisibility(View.INVISIBLE);
+                tv7.setVisibility(View.INVISIBLE);
+                i++;
+                break;
+            case 5:
+                tv1.setVisibility(View.INVISIBLE);
+                tv2.setVisibility(View.INVISIBLE);
+                tv3.setVisibility(View.INVISIBLE);
+                tv4.setVisibility(View.INVISIBLE);
+                tv5.setVisibility(View.INVISIBLE);
+                tv6.setVisibility(View.VISIBLE);
+                tv7.setVisibility(View.INVISIBLE);
+                i++;
+                break;
+            case 6:
+                tv1.setVisibility(View.INVISIBLE);
+                tv2.setVisibility(View.INVISIBLE);
+                tv3.setVisibility(View.INVISIBLE);
+                tv4.setVisibility(View.INVISIBLE);
+                tv5.setVisibility(View.INVISIBLE);
+                tv6.setVisibility(View.INVISIBLE);
+                tv7.setVisibility(View.VISIBLE);
+                i++;
+                break;
+        }
     }
 
 }

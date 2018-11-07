@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Sajeong">
+
+    <!--
+    1. 백그라운드 음악 추가
+    2. 페이드인/아웃
+    3. 인물 이름, 대화 내용 폰트 변경
+    4. 대화 종료 후 화면 전환 추가(보따리 화면으로)
+    5. 이름표(nametag.png) 이미지 변경
+    6. 대화창(dialog_bg.png) 이미지 사이즈 조절
+    7. 맨 처음에 전각 이름 뜨는 거 추가(사정전)
+    8. 대화 내용 애니메이션 추가
+    9. 내시 표정 바꾸기
+    10. 보따리, 고양이 애니메이션 추가
+    -->
 
     <!-- 사정전 배경 -->
     <ImageView
@@ -15,52 +28,160 @@
 
     <!-- 내시 -->
     <ImageView
-        android:id="@+id/naesi1"
+        android:id="@+id/sajeong_naesi"
         android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:scaleType="fitCenter"
         android:adjustViewBounds="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         android:src="@drawable/naesi"
-        android:background="#00ff0000"
-        android:layout_gravity="bottom|center_horizontal" />
+        android:background="#00ff0000" />
 
     <!-- 대화창 -->
-    <ImageView
-        android:id="@+id/dialog2"
+    <ImageButton
+        android:id="@+id/sajeong_dialog"
         android:layout_width="match_parent"
         android:layout_height="120dp"
-        android:background="@drawable/dialog_bg"
-        android:gravity="top"
-        android:layout_gravity="bottom|center_horizontal"
-        android:layout_margin="20dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/dialog_bg" />
 
     <!-- 이름표 -->
+    <ImageView
+        android:id="@+id/sajeong_nametag"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toTopOf="@id/sajeong_naesi_s1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:src="@drawable/nametag" />
+
+    <!-- 이름 -->
     <TextView
-        android:id="@+id/nametag2"
-        android:layout_width="120dp"
-        android:layout_height="50dp"
-        android:background="@drawable/nametag"
-        android:gravity="center"
-        android:layout_gravity="center_vertical|center_horizontal"
-        android:layout_marginTop="70dp"
-        android:paddingBottom="20dp"
+        android:id="@+id/sajeong_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/sajeong_nametag"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         android:text="@string/naesi_name"
         android:textSize="20sp"
         android:textColor="#FFFFFF"
         android:textStyle="bold" />
 
-    <!-- 대화창 다음 버튼 -->
-    <ImageButton
-        android:id="@+id/dialog_next2"
-        android:layout_width="20dp"
+    <!-- 대화 내용 -->
+    <TextView
+        android:id="@+id/sajeong_naesi_s1"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:scaleType="fitCenter"
-        android:adjustViewBounds="true"
-        android:src="@drawable/dialog_next"
-        android:background="#00ff0000"
-        android:layout_gravity="bottom|right"
-        android:layout_marginBottom="55dp"
-        android:layout_marginRight="60dp" />
+        app:layout_constraintTop_toTopOf="@id/sajeong_dialog"
+        app:layout_constraintBottom_toBottomOf="@id/sajeong_dialog"
+        app:layout_constraintLeft_toLeftOf="@id/sajeong_dialog"
+        app:layout_constraintVertical_bias="0.6"
+        android:layout_margin="20dp"
+        android:paddingTop="5dp"
+        android:text="@string/sajeong_naesi_s1"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:maxLines="2" />
+
+    <TextView
+        android:id="@+id/sajeong_naesi_s2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/sajeong_dialog"
+        app:layout_constraintBottom_toBottomOf="@id/sajeong_dialog"
+        app:layout_constraintLeft_toLeftOf="@id/sajeong_dialog"
+        app:layout_constraintVertical_bias="0.6"
+        android:layout_margin="20dp"
+        android:paddingTop="5dp"
+        android:text="@string/sajeong_naesi_s2"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:maxLines="2" />
+
+    <TextView
+        android:id="@+id/sajeong_naesi_s3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/sajeong_dialog"
+        app:layout_constraintBottom_toBottomOf="@id/sajeong_dialog"
+        app:layout_constraintLeft_toLeftOf="@id/sajeong_dialog"
+        app:layout_constraintVertical_bias="0.6"
+        android:layout_margin="20dp"
+        android:paddingTop="5dp"
+        android:text="@string/sajeong_naesi_s3"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:maxLines="2" />
+
+    <TextView
+        android:id="@+id/sajeong_naesi_s4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/sajeong_dialog"
+        app:layout_constraintBottom_toBottomOf="@id/sajeong_dialog"
+        app:layout_constraintLeft_toLeftOf="@id/sajeong_dialog"
+        app:layout_constraintVertical_bias="0.6"
+        android:layout_margin="20dp"
+        android:paddingTop="5dp"
+        android:text="@string/sajeong_naesi_s4"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:maxLines="2" />
+
+    <TextView
+        android:id="@+id/sajeong_naesi_s5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/sajeong_dialog"
+        app:layout_constraintBottom_toBottomOf="@id/sajeong_dialog"
+        app:layout_constraintLeft_toLeftOf="@id/sajeong_dialog"
+        app:layout_constraintVertical_bias="0.6"
+        android:layout_margin="20dp"
+        android:paddingTop="5dp"
+        android:text="@string/sajeong_naesi_s5"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:maxLines="2" />
+
+    <TextView
+        android:id="@+id/sajeong_naesi_s6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/sajeong_dialog"
+        app:layout_constraintBottom_toBottomOf="@id/sajeong_dialog"
+        app:layout_constraintLeft_toLeftOf="@id/sajeong_dialog"
+        app:layout_constraintVertical_bias="0.6"
+        android:layout_margin="20dp"
+        android:paddingTop="5dp"
+        android:text="@string/sajeong_naesi_s6"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:maxLines="2" />
+
+    <TextView
+        android:id="@+id/sajeong_naesi_s7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/sajeong_dialog"
+        app:layout_constraintBottom_toBottomOf="@id/sajeong_dialog"
+        app:layout_constraintLeft_toLeftOf="@id/sajeong_dialog"
+        app:layout_constraintVertical_bias="0.6"
+        android:layout_margin="20dp"
+        android:paddingTop="5dp"
+        android:text="@string/sajeong_naesi_s7"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:maxLines="2" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -69,48 +190,48 @@
 
         <!-- 보따리 -->
         <ImageButton
-            android:id="@+id/pack1"
+            android:id="@+id/sajeong_pack"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:scaleType="fitCenter"
             android:adjustViewBounds="true"
+            android:layout_alignParentLeft="true"
             android:src="@drawable/pack"
-            android:background="#00ff0000"
-            android:layout_alignParentLeft="true" />
+            android:background="#00ff0000" />
 
         <!-- 고양이 획득 여부 -->
         <!-- 고양이1 -->
         <ImageView
-            android:id="@+id/cat1_black1"
+            android:id="@+id/sajeong_cat1_black"
             android:layout_width="70dp"
             android:layout_height="wrap_content"
             android:scaleType="fitCenter"
+            android:layout_alignParentRight="true"
             android:adjustViewBounds="true"
-            android:src="@drawable/cat1"
-            android:layout_alignParentRight="true" />
+            android:src="@drawable/cat1_black" />
 
         <!-- 고양이2 -->
         <ImageView
-            android:id="@+id/cat2_black1"
+            android:id="@+id/sajeong_cat2_black"
             android:layout_width="70dp"
             android:layout_height="wrap_content"
             android:scaleType="fitCenter"
             android:adjustViewBounds="true"
-            android:src="@drawable/cat2"
-            android:layout_toLeftOf="@id/cat1_black1"
-            android:layout_alignBottom="@id/cat1_black1" />
+            android:layout_toLeftOf="@id/sajeong_cat1_black"
+            android:layout_alignBottom="@id/sajeong_cat1_black"
+            android:src="@drawable/cat2_black" />
 
         <!-- 고양이3 -->
         <ImageView
-            android:id="@+id/cat3_black1"
+            android:id="@+id/sajeong_cat3_black"
             android:layout_width="70dp"
             android:layout_height="wrap_content"
             android:scaleType="fitCenter"
             android:adjustViewBounds="true"
-            android:src="@drawable/cat3"
-            android:layout_toLeftOf="@id/cat2_black1"
-            android:layout_alignBottom="@id/cat1_black1" />
+            android:layout_toLeftOf="@id/sajeong_cat2_black"
+            android:layout_alignBottom="@id/sajeong_cat1_black"
+            android:src="@drawable/cat3_black" />
 
     </RelativeLayout>
 
-</FrameLayout>
+</android.support.constraint.ConstraintLayout>
