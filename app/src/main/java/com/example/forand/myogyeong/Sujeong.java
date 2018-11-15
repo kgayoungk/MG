@@ -26,7 +26,7 @@ public class Sujeong extends AppCompatActivity {
         // 상태바 제거
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        setContentView(R.layout.activity_sajeong);
+        setContentView(R.layout.activity_sujeong);
 
         // 내시 등장 애니메이션
         ImageView sujeong_naesi = (ImageView) findViewById(R.id.sujeong_naesi);

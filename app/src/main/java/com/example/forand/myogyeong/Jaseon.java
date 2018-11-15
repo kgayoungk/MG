@@ -26,7 +26,7 @@ public class Jaseon extends AppCompatActivity {
         // 상태바 제거
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        setContentView(R.layout.activity_sajeong);
+        setContentView(R.layout.activity_jaseon);
 
         // 세자 등장 애니메이션
         ImageView jaseon_seja = (ImageView) findViewById(R.id.jaseon_seja);

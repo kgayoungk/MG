@@ -10,7 +10,7 @@
 
     <!-- 근정전 배경 -->
     <ImageView
-        android:id="@+id/sujeong"
+        android:id="@+id/geunjeong"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/geunjeong_in" />

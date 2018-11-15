@@ -2,11 +2,16 @@ package com.example.forand.myogyeong;
 
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.content.pm.Signature;
 import android.graphics.Typeface;
 import android.media.AudioManager;
 import android.media.SoundPool;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Base64;
+import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.view.animation.Animation;
@@ -15,6 +20,10 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -40,11 +49,12 @@ public class MainActivity extends AppCompatActivity {
         pat_cat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // 고양이 울음소리
+                // 고양이 울음소리s
                 main_bgm.play(meow, 1, 1, 1, 0, 1);
 
+                Intent main_i = new Intent(getApplicationContext(), KakaoMap.class);
                 // 화면 전환
-                Intent main_i = new Intent(getApplicationContext(), Intro.class);
+                //Intent main_i = new Intent(getApplicationContext(), Intro.class);
                 startActivity(main_i);
             }
         });

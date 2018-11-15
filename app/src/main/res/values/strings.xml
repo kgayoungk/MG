@@ -15,14 +15,15 @@
     <string name="cat2_name">태생이</string>
     <string name="cat3_name">태양이</string>
 
+    <!-- 사정전 내부 묘종 -->
     <string name="sajeong_in_myojong_s1">
         어서 오게!\n
         과인의 집무실인 이곳 사정전까지 잘 와 주었네.</string>
-    <string name ="sajeong_in_myojong_s2">
+    <string name="sajeong_in_myojong_s2">
         내 자네를 부른 까닭은 친히 부탁할 것이 있어서라네.\n</string>
-    <string name = "sajeong_in_myojong_s3">
+    <string name="sajeong_in_myojong_s3">
         지난밤 과인이 아끼는 고양이 셋이 궁에서 모습을 감추었다네!\n
-        잠시 조는 사이...가 아니라 업무에 열중한 사이 사라져 버린 걸세!</string>
+        잠시 조는 사이…가 아니라 업무에 열중한 사이 사라져 버린 걸세!</string>
     <string name="sajeong_in_myojong_s4">
         듣자 하니 고양이들이 자네를 아주 잘 따른다더군.\n
         부디 과인의 사라진 고양이들을 찾아 주게.</string>
@@ -32,9 +33,10 @@
     <string name="sajeong_in_myojong_s6">
         곧 이곳 사정전에서 여러 대신들이 모여 학문을 토론하는\n
         경연이 열릴 예정이라 내 더 이상의 설명은 힘들 것 같네.</string>
-    <string name= "sajeong_in_myojong_s7">
+    <string name="sajeong_in_myojong_s7">
         자세한 사정은 김내관에게 일러두었으니 따라가 보게.\n</string>
 
+    <!-- 사정전 내시 -->
     <string name="sajeong_naesi_s1">
         저는 주상전하를 곁에서 모시는 김내관이라 하옵니다.\n</string>
     <string name="sajeong_naesi_s2">
@@ -55,22 +57,194 @@
     <string name="sajeong_naesi_s7">
         우선 세자저하의 침소가 있는 동궁전으로 가 보시는 게 어떠실런지요?\n</string>
 
-    <string name="jaseon_seja_s1"></string>
+    <!-- 자선당 세자 -->
+    <string name="jaseon_seja_s1">
+        안녕! 반가워~\n
+        듣자 하니 네가 아바마마의 고양이들을 찾는 중이라며?</string>
+    <string name="jaseon_seja_s2">
+        마침 공부하기 싫던 차에 잘 됐어!\n
+        내가 하얗고 토실토실한 고양이가 어디로 갔는지 알고 있거든.</string>stti
+    <string name="jaseon_seja_s3">
+        하지만 맨입으로 알려줄 수는 없단 말야~\n</string>
+    <string name="jaseon_seja_s4">
+        잠시 나랑 놀다 가면 안될까?\n
+        너한테만 특별히 동궁전을 소개시켜 줄게!</string>
+    <string name="jaseon_seja_s5">
+        이곳 동궁은 세자인 나와 미래의 세자빈이 살고 있는 곳이야.\n</string>
+    <string name="jaseon_seja_s6">
+        궁궐의 동쪽에 있어서 동궁이라고 부르는데\n
+        그래서 궁궐 사람들은 나를 동궁마마라고 부르기도 해.</string>
+    <string name="jaseon_seja_s7">
+        동궁 안에서도 이곳 자선당은 스승님과 함께 공부를 하는 곳이야.\n
+        매일 7시간 내내 앉아서 경전을 읽거나 시를 짓는 다니까!</string>
+    <string name="jaseon_seja_s8">
+        훌륭한 국왕이 되기 위해서는 지덕체와 문무를 겸비해야 한다나….\n
+        회강이라고 하는 시험도 수시로 보고….</string>
+    <string name="jaseon_seja_s9">
+        세자로 사는 것도 쉬운 일이 아니라구!\n</string>
+    <!-- 퀴즈 맞춘 후 -->
+    <string name="jaseon_seja_s10">
+        아바마마께서 특별히 부탁하셨다더니 정말인가 보네!\n</string>
+    <string name="jaseon_seja_s11">
+        사실 태평이는 내가 데리고 있었어, 히히!\n
+        아바마마께는 비밀로 해 줄 거지?</string>
+    <string name="jaseon_seja_s12">
+        아, 대신이라긴 뭐 하지만 한 가지 사실을 알려 주자면\n
+        아바마마의 고양이들이 생선을 아주 좋아한다지?</string>
+    <string name="jaseon_seja_s13">
+        듣기론 오늘 수라(식사)에 굴비가 올라 온다던데…. \n</string>
+    <string name="jaseon_seja_s14">
+        내소주방에서 지금 쯤 한창 수라를 준비하고 있을 테니\n
+        그쪽으로 가보는 게 어때?</string>
 
-    <string name="naesoju_sanggung_s1"></string>
+    <!-- 내소주방 상궁 -->
+    <string name="naesoju_sanggung_s1">
+        아휴, 이놈의 고양이들을 그냥….\n
+        (궁시렁 궁시렁) </string>
+    <string name="naesoju_sanggung_s2">
+        이런.\n
+        오셨으면 기척을 내시지 그러셨습니까.\n</string>
+    <string name="naesoju_sanggung_s3">
+        저는 이곳 내소주방을 관리하는 주방상궁입니다.\n
+        주상전하와 중전마마를 비롯한 마마님들의 수라를 책임지고 있지요.</string>
+    <string name="naesoju_sanggung_s4">
+        그런데 이…고양이들이 글쎄,\n
+        오늘 진지에 올라갈 굴비를 물고는 감쪽같이 사라졌지 뭡니까!</string>
+    <string name="naesoju_sanggung_s5">
+        전하께서 가장 좋아하시는 반찬이 굴비 반찬인데….\n
+        그래서 급하게 굴비반찬을 대신할 찬을 만들고 있는 중입니다.</string>
+    <string name="naesoju_sanggung_s6">
+        일손이 많이 부족하니, 수라상 준비하는 일을 도와주시면\n
+        고양이가 도망간 방향을 알려 드리겠습니다.</string>
+    <!-- 퀴즈 맞춘 후 -->
+    <string name="naesoju_sanggung_s7">
+        휴…. 감사합니다.\n
+        덕분에 한숨 덜었습니다.</string>
+    <string name="naesoju_sanggung_s8">
+        지나가는 나인들 말로는 어쩐지 억울하게 생긴 고양이 한 마리가\n
+        중전마마께서 계시는 교태전 쪽으로 갔다는군요.</string>
+    <string name="naesoju_sanggung_s9">
+        그곳으로 가 보시는 게 좋을 듯 합니다.\n</string>
 
-    <string name="gyotae_myohyeon_s1"></string>
+    <!-- 교태전 묘현왕후 -->
+    <string name="gyotae_myohyeon_s1">
+        게 누구인가?\n
+        이곳은 자네 같은 외부인이 함부로 드나들 수 없는 장소일 터.</string>
+    <string name="gyotae_myohyeon_s2">
+        교태전은 중전이 거처하는 침전이자\n
+        궁에서 일어나는 모든 일들을 관리하는 곳 이라네.</string>
+    <string name="gyotae_myohyeon_s3">
+        이곳에 오는 길에 강녕전을 지나쳐 왔겠지?\n</string>
+    <string name="gyotae_myohyeon_s4">
+        강녕전은 주상전하께서 거처하시는 침소로 사랑채 역할을,\n
+        이곳 교태전은 안채 역할을 하는 곳이라고 보면 된다네.</string>
+    <string name="gyotae_myohyeon_s5">
+        그래, 그래서 어떤 연유와 배짱으로 이러한 교태전을 찾았는가?\n</string>
+    <string name="gyotae_myohyeon_s6">
+        흐음, 과연.\n
+        간밤에 큰 소란이 일었다더니 또 그 말썽쟁이 고양이들 일이군.</string>
+    <string name="gyotae_myohyeon_s7">
+        그렇다 해도 함부로 교태전에 들어온 자네를\n
+        그냥 돌려보낼 수는 없으니….</string>
+    <string name="gyotae_myohyeon_s8">
+        내 마음을 너그러이 써, 자네에게 벌을 내리는 대신\n
+        문제를 맞추면 고양이가 있을 만한 장소를 안내해 주겠네.</string>
+    <!-- 퀴즈 맞춘 후 -->
+    <string name="gyotae_myohyeon_s9">
+        약속은 지켜야지.\n </string>
+    <string name="gyotae_myohyeon_s10">
+        억울하게 생긴 고양이라, 태생이를 말하는 듯 하군.\n
+        사실 태생이는 내 침전에서 실뭉치를 가지고 놀고 있다네.</string>
+    <string name="gyotae_myohyeon_s11">
+        으흠.\n
+        모쪼록 다른 이들에게는 비밀로 해두는 게 좋을 걸세.</string>
+    <string name="gyotae_myohyeon_s12">
+        그리고 태생이와 함께 놀던 노란 고양이를 한 마리 더 보았네.\n
+        내 기척에 놀라 향원정 쪽으로 도망갔으니 그곳으로 가보도록 하게.</string>
 
-    <string name="hyangwon_cat3_s1"></string>
+    <!-- 향원정 고양이3(태양이) -->
+    <string name="hyangwon_cat3_s1">
+        야옹!\n
+        (용케 나를 찾았군!)</string>
+    <string name="hyangwon_cat3_s2">
+        냥 야아옹 냐냥냥!\n
+        (여긴 내가 경복궁에서 소주방 다음으로 좋아하는 향원정이다냥!)</string>
+    <string name="hyangwon_cat3_s3">
+        야앙, 냐오오옹.\n
+        (식사도 배불리 했겠다, 아름다운 경치를 구경하러 왔다냥.)</string>
+    <string name="hyangwon_cat3_s4">
+        니야앙 야옹 냥.\n
+        (이곳 향원정은 상감마마를 비롯한 왕실 가족들만 출입할 수 있다냥.)</string>
+    <string name="hyangwon_cat3_s5">
+        냐웅 냐냐냥 야옹!\n
+        (하지만 전하의 총애를 받는 우리는 마음대로 드냐들 수 있지!)</string>
+    <string name="hyangwon_cat3_s6">
+        냐냥냐 냐우웅 니양\n
+        야옹, 야옹 냐냐냐냥!</string>
+    <string name="hyangwon_cat3_s7">
+        (1층은 온돌을 깔았고 2층은 마루로 되어 있어서\n
+        여름엔 시원하게, 겨울엔 따뜻하게 보내는 데 제격이다냥!)</string>
 
-    <string name="sujeong_naesi_s1"></string>
+    <!-- 퀴즈 맞춘 후 -->
+    <string name="hyangwon_cat3_s8">
+        냐웅 냥 니야아앙.\n
+        (듣자하니 전하께서 냐를 애타게 찾으시는 모양이다냥.)</string>
+    <string name="hyangwon_cat3_s9">
+        냐냥!\n
+        (우리는 수정전으로 가자냥. 냐를 따라오라냥!)</string>
 
-    <string name="geunjeong_cat1_s1"></string>
+    <!-- 수정전 내시 -->
+    <string name="sujeong_naesi_s1">
+        마침 잘 오셨습니다!\n
+        어디에 계신지 몰라 찾아 다니던 참입니다.</string>
+    <string name="sujeong_naesi_s2">
+        고양이를 모두 찾으셨다고 전해 들었습니다.\n
+        매우 경축드립니다!</string>
+    <string name="sujeong_naesi_s3">
+        자, 전하께서 근정전에서 기다리고 계십니다. </string>
+    <string name="sujeong_naesi_s4">
+        이 기쁜 소식을 전해 드리러 가는 길에\n
+        제가 내는 문제도 한 번 맞춰 보시겠습니까?</string>
+    <string name="sujeong_naesi_s5">
+        이곳 수정전은 선대이신 세종대왕 대에\n
+        집현전으로 쓰였던 곳입니다. </string>
+    <string name="sujeong_naesi_s6">
+        대왕께서 밤낮으로 연구하신 끝에 병인년 열매달(1446년 9월, 세종 28년)\n
+        훈민정음을 창제하셨던 곳이기도 하지요.</string>
+    <!-- 퀴즈 맞춘 후 -->
+    <string name="sujeong_naesi_s7">
+        역시 대단하십니다.\n
+        앞서 근정전으로 들어가시지요.</string>
 
-    <string name="geunjeong_cat2_s1"></string>
-
-    <string name="geunjeong_cat3_s1"></string>
-
-    <string name="geunjeong_myojong_s1"></string>
-
+    <!-- 근정전 고양이1, 2, 3, 묘종 -->
+    <string name="geunjeong_cat1_s1">
+        우니양 우냐냐~\n
+        (결국 우리를 모두 찾고 근정전에 왔구냥~)</string>
+    <string name="geunjeong_cat1_s2">
+        냐웅 야오옹~\n
+        (근정전의 ‘근정(勤政)’은 부지런하게 정치하라는 뜻이다냥~)</string>
+    <string name="geunjeong_cat2_s1">
+        미야앙 먕….\n
+        (경복궁의 중심 공간인 만큼 수많은 의식과 행사가 매년 열린다냥….)</string>
+    <string name="geunjeong_cat2_s2">
+        미양 먀오오옹….\n
+        (조선 전기부터 선조까지 총 일곱 명의 즉위식도 이곳에서 열렸다냥….)  </string>
+    <string name="geunjeong_cat3_s1">
+        냐냥 냐웅 야오오옹.\n
+        (외국 사신을 접견하면서 불꽃놀이를 하기도 한다냥.)</string>
+    <string name="geunjeong_cat3_s2">
+        냐아아앙 냥!\n
+        (또 과거 시험을 치르고 합격자를 발표하는 아주 중요한 곳이다냥!)</string>
+    <string name="geunjeong_myojong_s1">
+        마침내 태평이, 태생이, 태양이를 다시 품에 안게 되어\n
+        기쁨이 하늘에 닿는 구려!</string>
+    <string name="geunjeong_myojong_s2">
+        역시 내 사람 보는 눈이 탁월했어!\n
+        약속대로 자네에게 묘1품을 하사토록 하겠네!</string>
+    <string name="geunjeong_myojong_s3">
+        내 이리 믿음직스러운 자네에게 부탁하고 싶은 일이 많이 있어.\n
+        그 전에 자네만을 위해 준비한 연회를 실컷 즐기도록 하게나.</string>
+    <string name="geunjeong_myojong_s4">
+        여봐라!\n
+        풍악을 울려라!</string>
 </resources>

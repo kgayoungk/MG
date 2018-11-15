@@ -25,7 +25,7 @@ public class Gyotae extends AppCompatActivity {
         // 상태바 제거
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        setContentView(R.layout.activity_sajeong);
+        setContentView(R.layout.activity_gyotae);
 
         // 묘현왕후 등장 애니메이션
         ImageView gyotae_myohyeon = (ImageView) findViewById(R.id.gyotae_myohyeon);

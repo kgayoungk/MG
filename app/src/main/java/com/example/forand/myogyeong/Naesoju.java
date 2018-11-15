@@ -25,7 +25,7 @@ public class Naesoju extends AppCompatActivity {
         // 상태바 제거
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        setContentView(R.layout.activity_sajeong);
+        setContentView(R.layout.activity_naesoju);
 
         // 상궁 등장 애니메이션
         ImageView naesoju_sanggung = (ImageView) findViewById(R.id.naesoju_sanggung);

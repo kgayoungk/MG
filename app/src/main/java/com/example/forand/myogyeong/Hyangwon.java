@@ -26,7 +26,7 @@ public class Hyangwon extends AppCompatActivity {
         // 상태바 제거
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        setContentView(R.layout.activity_sajeong);
+        setContentView(R.layout.activity_hyangwon);
 
         // 태양이 등장 애니메이션
         ImageView hyangwon_cat3 = (ImageView) findViewById(R.id.hyangwon_cat3);
