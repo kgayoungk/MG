@@ -1,0 +1,240 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:2:1-139:12
+INJECTED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:2:1-139:12
+INJECTED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:2:1-139:12
+INJECTED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:2:1-139:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\2a64908e576b58ac134584ce7e453970\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\9f938a1cc8d9f66a2f3cf7b5e125c8ff\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\9b0fb1dc805ccf660ef384eac0bc5105\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\c2bc9e383a69b7639c6626132d90b3fc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\65969a45b3d60b339061e604cc14b013\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\ea5b461bb39085d7ce4e92b315de5219\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\6099be3a567a0d27acbeff6930d88dea\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\e6b083d070d4f2accdb9a6197679562e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\e94c323c91fafa700944cff0dc902337\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\5973355a5173a5d44865e9c767f80070\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\9388677d544a62494397f394bd0deff1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\7b6e912848beed89a078afa805300bb7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\e35cd9094146d6b9f137cb3762359228\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\02761eb086849d79b97ad2f51bc509bd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\484495b5e82ab39d240f6811a7343b05\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\0a2331a7d8c9f443014a7e87cda4dab9\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\a085248665c3489f2692ae5f3e754eaf\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\49c5680361572309b3ba653c007185aa\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\dd83e0ddd18348efe46a64fd3f95a999\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\b238ab3226fcbaa329f04b3a7d1abfab\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\c45f5d217ebf7d8fc1fa86e06150d43e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\c648259adad94d4c2444d31faf5314e3\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\01ff20d3bd3db4a6e0e0a4a30d5c1270\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\6950e5a44e82dc4841ef0b4c95519f21\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\d8b586a478b0f47f28a02138dc1b4f52\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\2739d41ba463fdac652d8f5c3ef8a154\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\3260dceaf24cdd2370a70d247a292869\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:2:1-139:12
+INJECTED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:2:1-139:12
+INJECTED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:2:1-139:12
+	package
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:3:5-43
+		INJECTED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:2:1-139:12
+		INJECTED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:2:1-139:12
+		INJECTED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:6:5-74
+	android:name
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:6:22-71
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:7:5-68
+	android:name
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:7:22-65
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:10:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:12:22-78
+meta-data#com.kakao.sdk.AppKey
+ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:14:5-16:60
+	android:value
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:16:9-57
+	android:name
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:15:9-44
+application
+ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:18:5-137:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\9f938a1cc8d9f66a2f3cf7b5e125c8ff\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\9f938a1cc8d9f66a2f3cf7b5e125c8ff\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\0a2331a7d8c9f443014a7e87cda4dab9\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\0a2331a7d8c9f443014a7e87cda4dab9\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\a085248665c3489f2692ae5f3e754eaf\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\a085248665c3489f2692ae5f3e754eaf\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\0a2331a7d8c9f443014a7e87cda4dab9\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:23:9-35
+	android:label
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:21:9-41
+	android:roundIcon
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:22:9-54
+	android:icon
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:20:9-42
+	android:allowBackup
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:19:9-35
+	android:theme
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:24:9-40
+activity#com.example.forand.myogyeong.MainActivity
+ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:25:9-31:20
+	android:name
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:25:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:26:13-30:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:29:27-74
+activity#com.example.forand.myogyeong.Intro
+ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:32:9-38:20
+	android:name
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:32:19-40
+activity#com.example.forand.myogyeong.Menu
+ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:39:9-45:20
+	android:name
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:39:19-39
+activity#com.example.forand.myogyeong.Map
+ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:46:9-52:20
+	android:name
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:46:19-38
+activity#com.example.forand.myogyeong.List
+ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:53:9-59:20
+	android:name
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:53:19-39
+activity#com.example.forand.myogyeong.Ending
+ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:60:9-66:20
+	android:name
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:60:19-41
+activity#com.example.forand.myogyeong.SajeongIn
+ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:67:9-73:20
+	android:name
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:67:19-44
+activity#com.example.forand.myogyeong.Sajeong
+ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:74:9-80:20
+	android:name
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:74:19-42
+activity#com.example.forand.myogyeong.Jaseon
+ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:81:9-87:20
+	android:name
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:81:19-41
+activity#com.example.forand.myogyeong.Naesoju
+ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:88:9-94:20
+	android:name
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:88:19-42
+activity#com.example.forand.myogyeong.Gyotae
+ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:95:9-101:20
+	android:name
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:95:19-41
+activity#com.example.forand.myogyeong.Hyangwon
+ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:102:9-108:20
+	android:name
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:102:19-43
+activity#com.example.forand.myogyeong.Sujeong
+ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:109:9-115:20
+	android:name
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:109:19-42
+activity#com.example.forand.myogyeong.Geunjeong
+ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:116:9-122:20
+	android:name
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:116:19-44
+activity#com.example.forand.myogyeong.Quiz
+ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:123:9-129:20
+	android:name
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:123:19-39
+activity#com.example.forand.myogyeong.KakaoMap
+ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:130:9-136:20
+	android:name
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml:130:19-43
+uses-sdk
+INJECTED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\2a64908e576b58ac134584ce7e453970\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\2a64908e576b58ac134584ce7e453970\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\9f938a1cc8d9f66a2f3cf7b5e125c8ff\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\9f938a1cc8d9f66a2f3cf7b5e125c8ff\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\9b0fb1dc805ccf660ef384eac0bc5105\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\9b0fb1dc805ccf660ef384eac0bc5105\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\c2bc9e383a69b7639c6626132d90b3fc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\c2bc9e383a69b7639c6626132d90b3fc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\65969a45b3d60b339061e604cc14b013\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\65969a45b3d60b339061e604cc14b013\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\ea5b461bb39085d7ce4e92b315de5219\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\ea5b461bb39085d7ce4e92b315de5219\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\6099be3a567a0d27acbeff6930d88dea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\6099be3a567a0d27acbeff6930d88dea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\e6b083d070d4f2accdb9a6197679562e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\e6b083d070d4f2accdb9a6197679562e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\e94c323c91fafa700944cff0dc902337\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\e94c323c91fafa700944cff0dc902337\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\5973355a5173a5d44865e9c767f80070\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\5973355a5173a5d44865e9c767f80070\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\9388677d544a62494397f394bd0deff1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\9388677d544a62494397f394bd0deff1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\7b6e912848beed89a078afa805300bb7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\7b6e912848beed89a078afa805300bb7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\e35cd9094146d6b9f137cb3762359228\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\e35cd9094146d6b9f137cb3762359228\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\02761eb086849d79b97ad2f51bc509bd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\02761eb086849d79b97ad2f51bc509bd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\484495b5e82ab39d240f6811a7343b05\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\484495b5e82ab39d240f6811a7343b05\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\0a2331a7d8c9f443014a7e87cda4dab9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\0a2331a7d8c9f443014a7e87cda4dab9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\a085248665c3489f2692ae5f3e754eaf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\a085248665c3489f2692ae5f3e754eaf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\49c5680361572309b3ba653c007185aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\49c5680361572309b3ba653c007185aa\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\dd83e0ddd18348efe46a64fd3f95a999\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\dd83e0ddd18348efe46a64fd3f95a999\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\b238ab3226fcbaa329f04b3a7d1abfab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\b238ab3226fcbaa329f04b3a7d1abfab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\c45f5d217ebf7d8fc1fa86e06150d43e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\c45f5d217ebf7d8fc1fa86e06150d43e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\c648259adad94d4c2444d31faf5314e3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\c648259adad94d4c2444d31faf5314e3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\01ff20d3bd3db4a6e0e0a4a30d5c1270\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\01ff20d3bd3db4a6e0e0a4a30d5c1270\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\6950e5a44e82dc4841ef0b4c95519f21\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\6950e5a44e82dc4841ef0b4c95519f21\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\d8b586a478b0f47f28a02138dc1b4f52\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\d8b586a478b0f47f28a02138dc1b4f52\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\2739d41ba463fdac652d8f5c3ef8a154\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\2739d41ba463fdac652d8f5c3ef8a154\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\3260dceaf24cdd2370a70d247a292869\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\gyfor\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\3260dceaf24cdd2370a70d247a292869\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\gyfor\AndroidStudioProjects\MyoGyeong\app\src\main\AndroidManifest.xml
